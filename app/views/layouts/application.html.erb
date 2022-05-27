@@ -12,6 +12,7 @@
   <body>
   <header class="main">
 <%= image_tag 'logo.svg', alt: 'The Pragmatic Bookshelf' %>
+
 <h1><%= @page_title %></h1>
 </header>
 <section class="content">
@@ -22,6 +23,9 @@
 <li><a href="/news">News</a></li>
 <li><a href="/contact">Contact</a></li>
 </ul>
+<div class="time">
+<%= Time.now %>
+</div>
 </nav>
   <main class='<%= controller.controller_name %>'>
     <%= yield %>
