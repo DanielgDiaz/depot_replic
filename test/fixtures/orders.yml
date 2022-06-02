@@ -20,6 +20,7 @@ other_customer:
   address: 456 Somewhere Ln
   email: chris@nowhere.net
   pay_type: Check
+  
 two:
   name: MyString
   address: MyText
